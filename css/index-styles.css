@@ -2,6 +2,7 @@ html {
     min-width: 300px;
     overflow-x: hidden;
     font-size: 10px;
+    background-color: #124e78;
 }
 
 *, *::before, *::after {
@@ -10,12 +11,59 @@ html {
 
 h1 {
     font-size: 6rem;
+    color: #fff;
 }
 
 h2 {
     font-size: 2.4rem;
+    color: #d74e09;
+    background-color: #f0f0c9;
+    border-radius: 22px 22px 0 0;
+    margin-top: 0;
 }
 
 h1, h2 {
     font-family: "Pacifico", cursive;
+    text-align: center;
+}
+
+body {
+    margin: 0 10%;
+}
+
+#recipeSpace {
+    display: flex;
+}
+
+#recipeSpace div {
+    background-color: #f2bb05;
+}
+
+#recipeSpace div:nth-child(1) {
+    z-index: 1;
+}
+
+#recipeSpace div:nth-child(2) {
+    z-index: 2;
+}
+
+#recipeSpace div:nth-child(3) {
+    z-index: 3;
+}
+
+.recipePreview {
+    border: 3px solid #5e0e0a;
+    border-radius: 25px;
+    min-width: 25%;
+    max-width: 33%;
+    min-height: 5%;
+    max-height: 15%;
+    margin: 0 1%;
+}
+
+.recipePreview p {
+    font-size: 1.8rem;
+    padding: 0 5%;
+    font-family: 'Andada Pro', serif;
+    color: #fff;
 }
