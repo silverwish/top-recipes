@@ -26,6 +26,13 @@ a:hover {
     box-sizing: border-box;
 }
 
+#returnHome {
+    position: fixed;
+    background-color: #d74e09;
+    padding: 0 10px 10px 10px;
+    font-weight: 900;
+}
+
 #titleCntr {
     margin: 0;
     padding: 0;
