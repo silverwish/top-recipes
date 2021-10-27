@@ -25,6 +25,7 @@ h2 {
 h1, h2 {
     font-family: "Pacifico", cursive;
     text-align: center;
+    margin-bottom: 0;
 }
 
 body {
@@ -35,7 +36,7 @@ body {
     display: flex;
 }
 
-#recipeSpace div {
+#recipeSpace a {
     background-color: #f2bb05;
 }
 
@@ -66,4 +67,16 @@ body {
     padding: 0 5%;
     font-family: 'Andada Pro', serif;
     color: #fff;
+}
+
+.imageCntr {
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+    border-top: 3px solid #d74e09;
+    border-bottom: 3px solid #d74e09;
+}
+
+.recipeImage {
+    background-size: cover;
 }
