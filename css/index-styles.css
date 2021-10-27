@@ -123,3 +123,16 @@ body {
 .recipeImage {
     max-height: 300px;
 }
+
+footer {
+    font-family: 'Zen Kurenaido', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#footerSpan {
+    background-color: #d74e09;
+    padding: 10px;
+}
