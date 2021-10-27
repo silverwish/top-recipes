@@ -74,8 +74,8 @@ body {
 
 .recipePreview {
     border-radius: 25px;
-    min-width: 25%;
-    max-width: 33%;
+    min-width: 20%;
+    max-width: 25%;
     min-height: 5%;
     max-height: 15%;
     margin: 0;
@@ -90,8 +90,19 @@ body {
 
 .imageCntr {
     width: 100%;
+    min-height: 200px;
     max-height: 300px;
     overflow: hidden;
+    background-size: cover;
+    margin: 5px 0 0 0;
+}
+
+#recipe-1-img {
+    background-image: url(../media/chorizoPasta.jpeg);
+}
+
+#recipe-2-img {
+    background-image: url(../media/vegBolognese.jpeg);
 }
 
 .recipeImage {
