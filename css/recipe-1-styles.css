@@ -93,15 +93,24 @@ body {
 
 ul, ol {
     margin: 0;
-    list-style-type: none;
     color: #fff;
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
 }
 
 #ingredients {
     display: flex;
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 2rem;
     margin: 5% 0;
+    max-width: 1405px;
+}
+
+#instructions {
+    display: flex;
+    max-width: 1405px;
 }
 
 footer {
