@@ -91,13 +91,17 @@ body {
     background-size: cover;
 }
 
-#portion {
+#recipeInfo {
+    margin: 10px;
+}
+
+#portion, #cookingTime {
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 2rem;
     font-weight: 600;
     color: #fff;
     padding: 5px 0;
-    margin: 10px;
+    margin: 5px;
 }
 
 ul, ol {
@@ -119,6 +123,10 @@ ul {
 
 #ingredients, #instructions {
     border-bottom: 1px solid #d74e09;
+}
+
+#notes ul {
+    list-style-type: circle;
 }
 
 footer {
