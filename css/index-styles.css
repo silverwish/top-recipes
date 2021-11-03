@@ -15,11 +15,18 @@ a {
     font-size: 2.4rem;
     font-weight: 600;
     text-decoration: none;
-    color: #CFC0BD;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+#pasta a {
+    color: #CFC0BD;
+}
+
+#rice a {
+    color: #7F9183;
 }
 
 *, *::before, *::after {
@@ -68,9 +75,20 @@ body {
 }
 
 #pasta {
+    background-color: #7F9183;
+}
+
+#pasta p {
+    color: #fff;
+}
+
+#rice p {
+    color: #000;
+}
+
+#pasta, #rice {
     display: flex;
     justify-content: space-evenly;
-    background-color: #7F9183;
 }
 
 #pasta-1 {
@@ -81,7 +99,7 @@ body {
     z-index: 2;
 }
 
-#pasta-1, #pasta-2 {
+#pasta-1, #pasta-2, #rice-1, #rice-2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,7 +117,6 @@ body {
 .recipePreview p {
     font-size: 1.8rem;
     font-family: 'Andada Pro', sans-serif;
-    color: #fff;
     overflow: hidden;
 }
 
