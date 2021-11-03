@@ -118,6 +118,7 @@ body {
     font-size: 1.8rem;
     font-family: 'Andada Pro', sans-serif;
     overflow: hidden;
+    max-height: 475px;
 }
 
 .imageCntr {
@@ -135,6 +136,11 @@ body {
 
 #pasta-2-img {
     background-image: url(../media/vegBolognese.jpeg);
+}
+
+
+#rice-2-img {
+    background-image: url(../media/eggFriedRice.jpeg);
 }
 
 .recipeImage {
