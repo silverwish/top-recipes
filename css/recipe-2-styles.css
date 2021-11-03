@@ -118,7 +118,7 @@ ul {
 #ingredients, #instructions, #notes {
     display: flex;
     padding: 5% 0;
-    max-width: 1405px;
+    max-width: 1450px;
 }
 
 #ingredients, #instructions {
