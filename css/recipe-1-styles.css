@@ -111,15 +111,14 @@ ul {
     list-style-type: none;
 }
 
-#ingredients {
+#ingredients, #instructions, #notes {
     display: flex;
-    margin: 5% 0;
+    padding: 5% 0;
     max-width: 1405px;
 }
 
-#instructions {
-    display: flex;
-    max-width: 1405px;
+#ingredients, #instructions {
+    border-bottom: 1px solid #d74e09;
 }
 
 footer {
