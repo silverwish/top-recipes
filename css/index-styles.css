@@ -74,6 +74,11 @@ body {
     margin: 0;
 }
 
+.type {
+    position: absolute;
+    transform: translateY(-100px);
+}
+
 #pasta {
     background-color: #7F9183;
 }
