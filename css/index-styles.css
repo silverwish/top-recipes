@@ -67,7 +67,7 @@ body {
     margin: 0;
 }
 
-#recipeSpace {
+#pasta {
     display: flex;
     justify-content: space-evenly;
     background-color: #7F9183;
