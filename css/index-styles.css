@@ -118,7 +118,7 @@ body {
     font-size: 1.8rem;
     font-family: 'Andada Pro', sans-serif;
     overflow: hidden;
-    max-height: 475px;
+    max-height: 110px;
 }
 
 .imageCntr {
@@ -138,6 +138,9 @@ body {
     background-image: url(../media/vegBolognese.jpeg);
 }
 
+#rice-1-img {
+    background-image: url(../media/chickenCashew.jpeg);
+}
 
 #rice-2-img {
     background-image: url(../media/eggFriedRice.jpeg);
@@ -158,4 +161,8 @@ footer {
 #footerSpan {
     background-color: #d74e09;
     padding: 10px;
+}
+
+footer a {
+    color: #CFC0BD;
 }
