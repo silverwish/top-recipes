@@ -1,174 +1,349 @@
-html {
-    min-width: 300px;
-    overflow-x: hidden;
-    font-size: 10px;
-    background-color: #CFC0BD;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    font-family: 'Zen Kurenaido', sans-serif;
-    font-size: 2.4rem;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-#pasta a {
-    color: #CFC0BD;
-}
-
-#rice a {
-    color: #7F9183;
-}
-
-*, *::before, *::after {
-    box-sizing: inherit;
-}
-
-#titleCntr {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-h1 {
-    font-size: 6rem;
-    color: #fff;
-    margin: 0;
-    transform: translateY(200px);
-    letter-spacing: 20px;
-}
-
-.highlight {
-    background-color: #d74e09;
-}
-
-svg {
-    display: block;
-    overflow: hidden;
+@media only screen and (min-width: 1700px) {
     
+    html {
+        min-width: 300px;
+        overflow-x: hidden;
+        font-size: 10px;
+        background-color: #CFC0BD;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    a {
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    #pasta a {
+        color: #CFC0BD;
+    }
+    
+    #rice a {
+        color: #7F9183;
+    }
+    
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
+    
+    #title-cntr {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    h1 {
+        font-size: 6rem;
+        color: #fff;
+        margin: 0;
+        transform: translateY(200px);
+        letter-spacing: 20px;
+    }
+    
+    .highlight {
+        background-color: #d74e09;
+    }
+    
+    svg {
+        display: block;
+        overflow: hidden;
+        
+    }
+    
+    h2 {
+        font-size: 3rem;
+        color: #fff;
+        border-radius: 22px 22px 0 0;
+        margin-top: 0;
+    }
+    
+    h1, h2 {
+        font-family: 'Zen Kurenaido', sans-serif;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    .type {
+        position: absolute;
+        transform: translateY(-100px);
+    }
+    
+    #pasta {
+        background-color: #7F9183;
+    }
+    
+    #pasta p {
+        color: #fff;
+    }
+    
+    #rice p {
+        color: #000;
+    }
+    
+    #pasta, #rice {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #pasta-1 {
+        z-index: 1;
+    }
+    
+    #pasta-2 {
+        z-index: 2;
+    }
+    
+    #pasta-1, #pasta-2, #rice-1, #rice-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .recipe-preview {
+        border-radius: 25px;
+        margin: 0;
+    }
+    
+    .recipe-preview p {
+        font-size: 1.8rem;
+        font-family: 'Andada Pro', sans-serif;
+        overflow: hidden;
+        max-height: 110px;
+    }
+    
+    .img-cntr {
+        width: 100%;
+        min-height: 200px;
+        max-height: 300px;
+        overflow: hidden;
+        background-size: cover;
+        margin: 5px 0 0 0;
+    }
+    
+    #pasta-1-img {
+        background-image: url(../media/chorizoPasta.jpeg);
+    }
+    
+    #pasta-2-img {
+        background-image: url(../media/vegBolognese.jpeg);
+    }
+    
+    #rice-1-img {
+        background-image: url(../media/chickenCashew.jpeg);
+    }
+    
+    #rice-2-img {
+        background-image: url(../media/eggFriedRice.jpeg);
+    }
+    
+    .recipe-img {
+        max-height: 300px;
+    }
+    
+    footer {
+        font-family: 'Zen Kurenaido', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    #footer-span {
+        background-color: #d74e09;
+        padding: 10px;
+    }
+    
+    footer a {
+        color: #CFC0BD;
+    }
 }
 
-h2 {
-    font-size: 3rem;
-    color: #fff;
-    border-radius: 22px 22px 0 0;
-    margin-top: 0;
-}
+@media only screen and (max-width: 768px) {
 
-h1, h2 {
-    font-family: 'Zen Kurenaido', sans-serif;
-    text-align: center;
-    margin-bottom: 0;
-}
+    *, *::before, *::after {
+        box-sizing: inherit;
+    }
 
-body {
-    margin: 0;
-}
+    html {
+        min-width: 300px;
+        overflow-x: hidden;
+        font-size: 10px;
+        background-color: #CFC0BD;
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    a {
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    
+    #pasta a {
+        color: #CFC0BD;
+    }
+    
+    #rice a {
+        color: #7F9183;
+    }
+    
+    #title-cntr {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    h1 {
+        font-size: 3.6rem;
+        color: #fff;
+        margin: 0;
+        transform: translateY(0px);
+        letter-spacing: 20px;
+    }
+    
+    .highlight {
+        background-color: #d74e09;
+    }
+    
+    svg {
+        display: block;
+        overflow: hidden;
+        
+    }
+    
+    h2 {
+        font-size: 3rem;
+        color: #fff;
+        border-radius: 22px 22px 0 0;
+        margin-top: 0;
+    }
+    
+    h1, h2 {
+        font-family: 'Zen Kurenaido', sans-serif;
+        text-align: center;
+        margin-bottom: 0;
+    }
 
-.type {
-    position: absolute;
-    transform: translateY(-100px);
-}
-
-#pasta {
-    background-color: #7F9183;
-}
-
-#pasta p {
-    color: #fff;
-}
-
-#rice p {
-    color: #000;
-}
-
-#pasta, #rice {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#pasta-1 {
-    z-index: 1;
-}
-
-#pasta-2 {
-    z-index: 2;
-}
-
-#pasta-1, #pasta-2, #rice-1, #rice-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.recipePreview {
-    border-radius: 25px;
-    min-width: 20%;
-    max-width: 25%;
-    min-height: 5%;
-    max-height: 15%;
-    margin: 0;
-}
-
-.recipePreview p {
-    font-size: 1.8rem;
-    font-family: 'Andada Pro', sans-serif;
-    overflow: hidden;
-    max-height: 110px;
-}
-
-.imageCntr {
-    width: 100%;
-    min-height: 200px;
-    max-height: 300px;
-    overflow: hidden;
-    background-size: cover;
-    margin: 5px 0 0 0;
-}
-
-#pasta-1-img {
-    background-image: url(../media/chorizoPasta.jpeg);
-}
-
-#pasta-2-img {
-    background-image: url(../media/vegBolognese.jpeg);
-}
-
-#rice-1-img {
-    background-image: url(../media/chickenCashew.jpeg);
-}
-
-#rice-2-img {
-    background-image: url(../media/eggFriedRice.jpeg);
-}
-
-.recipeImage {
-    max-height: 300px;
-}
-
-footer {
-    font-family: 'Zen Kurenaido', sans-serif;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    padding: 10px 0;
-}
-
-#footerSpan {
-    background-color: #d74e09;
-    padding: 10px;
-}
-
-footer a {
-    color: #CFC0BD;
+    .type {
+        position: inherit;
+        transform: translateY(0px);
+        margin-bottom: 20px;
+    }
+    
+    #pasta {
+        background-color: #7F9183;
+    }
+    
+    #pasta p {
+        color: #fff;
+        margin: 5%;
+    }
+    
+    #rice p {
+        color: #000;
+        margin: 5%;
+    }
+    
+    #pasta, #rice {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 2% 0;
+    }
+    
+    #pasta-1 {
+        z-index: 1;
+    }
+    
+    #pasta-2 {
+        z-index: 2;
+    }
+    
+    #pasta-1, #pasta-2, #rice-1, #rice-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .recipe-preview {
+        border-radius: 25px;
+        margin: 20px 0;
+    }
+    
+    .recipe-preview p {
+        font-size: 1.8rem;
+        font-family: 'Andada Pro', sans-serif;
+        overflow: hidden;
+        max-height: 200px;
+    }
+    
+    .img-cntr {
+        width: 100%;
+        min-height: 200px;
+        max-height: 300px;
+        overflow: hidden;
+        background-size: cover;
+        margin: 5px 0 0 0;
+    }
+    
+    #pasta-1-img {
+        background-image: url(../media/chorizoPasta.jpeg);
+        background-size: cover;
+    }
+    
+    #pasta-2-img {
+        background-size: cover;
+        background-image: url(../media/vegBolognese.jpeg);
+    }
+    
+    #rice-1-img {
+        background-size: cover;
+        background-image: url(../media/chickenCashew.jpeg);
+    }
+    
+    #rice-2-img {
+        background-size: cover;
+        background-image: url(../media/eggFriedRice.jpeg);
+    }
+    
+    .recipe-img {
+        max-height: 300px;
+    }
+    
+    footer {
+        font-family: 'Zen Kurenaido', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    #footer-span {
+        background-color: #d74e09;
+        padding: 10px;
+    }
+    
+    footer a {
+        color: #CFC0BD;
+    }
 }
