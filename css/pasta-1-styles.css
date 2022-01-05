@@ -142,3 +142,118 @@ footer {
     background-color: #d74e09;
     padding: 10px 0;
 }
+
+@media only screen and (max-width: 768px) {
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    
+    a {
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-size: 2.4rem;
+        font-weight: 600;
+        text-decoration: none;
+        color: #CFC0BD;
+    }
+    
+    #title-cntr {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    h1 {
+        font-size: 4.8rem;
+        color: #fff;
+        margin: 0;
+        transform: translateY(170px);
+        letter-spacing: 20px;
+    }
+    
+    svg {
+        display: block;
+        overflow: hidden;
+    }
+    
+    h2 {
+        font-size: 3rem;
+        color: #fff;
+        border-radius: 22px 22px 0 0;
+        margin-top: 0;
+    }
+    
+    #recipe-cntr {
+        background-color: #586F6B;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img-cntr {
+        min-height: 150px;
+        max-height: 200px;
+        max-width: auto;
+        overflow: hidden;
+        background-size: cover;
+    }
+    
+    #recipe-info {
+        margin: 10px;
+    }
+    
+    #portion, #cooking-time {
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #fff;
+        padding: 5px 0;
+        margin: 5px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+    
+    ul, ol {
+        margin: 0;
+        color: #fff;
+        font-family: 'Zen Kurenaido', sans-serif;
+        font-size: 2rem;
+    }
+
+    ul li, ol li {
+        padding: 8px 0;
+    }
+    
+    #ingredients, #instructions, #notes {
+        display: flex;
+        flex-direction: column;
+        padding: 5% 0;
+        padding-right: 2%;
+        max-width: 1305px;
+    }
+    
+    #ingredients, #instructions {
+        border-bottom: 1px solid #d74e09;
+    }
+    
+    #notes ul {
+        list-style-type: circle;
+    }
+    
+    footer {
+        font-family: 'Zen Kurenaido', sans-serif;
+        text-align: center;
+        font-size: 2rem;
+        color: #fff;
+        padding: 10px 0;
+    }
+    
+    #footer-span {
+        background-color: #d74e09;
+        padding: 10px 0;
+    }
+}
