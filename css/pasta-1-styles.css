@@ -158,6 +158,10 @@ footer {
         text-decoration: none;
         color: #CFC0BD;
     }
+
+    #return-home {
+        z-index: 1;
+    }
     
     #title-cntr {
         margin: 0;
@@ -193,9 +197,8 @@ footer {
     }
     
     .img-cntr {
-        min-height: 150px;
+        min-height: 100px;
         max-height: 200px;
-        max-width: auto;
         overflow: hidden;
         background-size: cover;
     }
@@ -219,6 +222,7 @@ footer {
     
     ul, ol {
         margin: 0;
+        padding-left: 20px;
         color: #fff;
         font-family: 'Zen Kurenaido', sans-serif;
         font-size: 2rem;
@@ -231,8 +235,7 @@ footer {
     #ingredients, #instructions, #notes {
         display: flex;
         flex-direction: column;
-        padding: 5% 0;
-        padding-right: 2%;
+        margin: 5% 5% 0 5%;
         max-width: 1305px;
     }
     
