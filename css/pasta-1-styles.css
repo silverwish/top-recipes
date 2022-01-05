@@ -27,14 +27,14 @@ a:hover {
     box-sizing: inherit;
 }
 
-#returnHome {
+#return-home {
     position: fixed;
     background-color: #d74e09;
     padding: 0 0 10px 0;
     font-weight: 900;
 }
 
-#titleCntr {
+#title-cntr {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -75,14 +75,14 @@ body {
     margin: 0;
 }
 
-#recipeCntr {
+#recipe-cntr {
     background-color: #586F6B;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.imageCntr {
+.img-cntr {
     min-height: 200px;
     max-height: 300px;
     min-width: 600px;
@@ -92,11 +92,11 @@ body {
     background-size: cover;
 }
 
-#recipeInfo {
+#recipe-info {
     margin: 10px;
 }
 
-#portion, #cookingTime {
+#portion, #cooking-time {
     font-family: 'Zen Kurenaido', sans-serif;
     font-size: 2rem;
     font-weight: 600;
@@ -138,7 +138,7 @@ footer {
     padding: 10px 0;
 }
 
-#footerSpan {
+#footer-span {
     background-color: #d74e09;
     padding: 10px 0;
 }
