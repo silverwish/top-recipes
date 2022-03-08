@@ -10,8 +10,6 @@ As of 10/11/2021:
 
 - At this stage in The Odin Project course I decided to use this project as an opportunity to test my creativity and design skills. As such, JavaScript has not been used at all, but once my programming skillset has developed further I plan to implement a gallery-style feature to allow users to browse recipes in various categories, hence the name reciperack.
 
-- Presently, I have not made the website responsive. By professional standards (and my own) this is taboo, but I am keen to move on to more programming-oriented projects to develop that set of problem-solving skills further. Alongside the gallery as mentioned above, responsiveness will be implemented.
-
 ## technologies used
 
 As of 10/11/2021:
